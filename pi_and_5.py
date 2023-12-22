@@ -5,7 +5,7 @@ def scientific_notation(number):
 	while number < 1:
 		number *= 10
 		tens += 1
-	return [number,tens]
+	return [number, tens]
 
 def Approximation_of_pi():
 	while 1:
@@ -17,7 +17,7 @@ def Approximation_of_pi():
 		denominator = int('5' * quantity_of_5)
 		scientified = scientific_notation(sin(pi/(denominator*180)))
 		print("the digits are: ",scientified[0],'*10^(-',scientified[1],')',sep='')
-		print("pi is:",pi)
+		print("pi is: ",pi)
 		error = (scientified[0]-pi)
 		print("difference between the digits and pi is:",error)
 
