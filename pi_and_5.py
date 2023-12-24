@@ -8,7 +8,7 @@ def scientific_notation(number):
 	return [number, tens]
 
 def Approximation_of_pi():
-	while 1:
+	while TRUE:
 		inp = input("Please enter the number of 5s or 'e' to exit: ")
 		if inp == 'e':
 			print("Have a good time")
